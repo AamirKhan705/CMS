@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>
+      Contact Us
+   </title>
+   <link rel="icon" href="logo_1.png" />
+
+<style>
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+   }
+
+   h3 {
+      color: white;
+   }
+
+   h3:hover {
+      color: red;
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: #00204fff;
+      position: fixed;
+      width: 100%;
+      top: 0;
+   }
+
+   li {
+      float: left;
+      position: relative;
+      top: 0px;
+   }
+
+   li img {
+      float: left;
+      position: relative;
+      top: -5px;
+   }
+
+   li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 19px 10px;
+      text-decoration: none;
+      float: left;
+   }
+
+   li a:hover {
+      color: red;
+   }
+
+   input[type=text],
+   select,
+   textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #0d0d0d;
+      margin-top: 6px;
+      margin-bottom: 16px;
+   }
+
+   input[type=submit] {
+      background-color: #6a5acd;
+      color: rgb(255, 255, 255);
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+   }
+
+   input[type=submit]:hover {
+      background-color: #45a049;
+      color: white;
+   }
+
+   .container {
+      border-radius: 5px;
+   }
+
+   .row:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+
+   .column {
+      float: center;
+      width: 500px;
+      margin-left: 30%;
+   }
+
+   h2 {
+      text-align: center;
+      font-size: 50px;
+      margin-top: 100px;
+   }
+
+   body {
+      background-image: url('cimg.avif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: rgb(147, 235, 205);
+   }
+
+   pre {
+      font-size: 20px;
+      color: rgb(52, 55, 63);
+   }
+
+   input[type=text][name="subject"]::placeholder {
+      position: absolute;
+      top: 10px; 
+      left: 10px; 
+      color: #aaa; 
+   }
+</style>
+</head>
+<body>
+   <h2><b>Contact Us</b></h2><br>
+   <hr>
+   <p><b> *Contact us from the address or fill the form below </b></p>
+   <pre><b>
+			Address :-  MARK4COURIERS office,
+				            Zolo Bella Casa,					
+				            RT nagar, Bengaluru, Karnataka, India-560024.
+
+			Email ID :-   help@mark4couriers.co.in
+							
+			Phone No:-  9431123786/9162751877.
+      </b></pre>
+   <hr>
+   <ul>
+      <li><img src="logo.png" /></li>
+      <li>
+         <h3><a>MARK4COURIERS</a></h3>
+      </li>
+      <li style="float:right"><a href="about.html">About</a></li>
+      <li style="float:right"><a href="contact.html">Contact</a></li>
+      <li style="float:right"><a href="Home.html">Home</a></li>
+   </ul>
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="column">
+            <label for="fname"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="fname" required><br>
+            <label for="city"><b>Email Id</b><label>
+                  <input type="text" placeholder="Enter Email Id" name="city" required><br>
+                  <label for="subject"><b>Subject</b></label>
+                  <input type="text" name="subject" placeholder="Write Something...." style="height:160px" required>
+            <br>
+                  <input type="submit" value="Submit">
+         </div>
+      </div><br>
+   </div>
+</body>
+
+</html>
